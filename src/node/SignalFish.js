@@ -339,7 +339,7 @@
 	SignalFish.prototype.addLift = function(lift){
 		if(this.settings.webOverride == true){
 			lift = _normalizeValue.call(this,lift);
-			this.outputInstructions.liftMotor = this.settings.thrust.maxValue * -lift;
+			this.outputInstructions.liftMotor = this.settings.thrust.maxValue * lift;
 		}
 	}
 
