@@ -1,0 +1,45 @@
+/*
+
+http://encycolorpedia.com/0071c5
+
+*/
+
+body {
+  color: #404040;
+  background-color: #f2f2f0;
+  font-family: sans-serif;
+  font-size: 16px;
+  line-height: 25px;
+}
+
+.main {
+  background-color: white;
+}
+
+a {
+  color: #fa5c4f;
+}
+
+
+.blue-bg {
+  color: white;
+  background-color: #0071c5;
+}
+
+.light-blue-bg{
+  color: white;
+  background-color: #008df6;
+}
+
+.spacer-line {
+  border-top: 1px solid #fa5c4f;
+}
+
+.white-bg {
+  color: #0071c5;
+  background-color: white;
+}
+
+.round{
+	border-radius:50%;
+}
