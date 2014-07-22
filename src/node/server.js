@@ -16,8 +16,8 @@ var SerialPort = serialportLib.SerialPort;
 Set to the correct address for the galileo serial port
 */
 //galileo serial port
-//var serialAddress = "/dev/ttyS0";
-var serialAddress = "/dev/cu.usbserial-AD02FND5";
+var serialAddress = "/dev/ttyS0";
+//var serialAddress = "/dev/cu.usbserial-AD02FND5";
 
 //create the serialport object
 var serial = new SerialPort(serialAddress, {
